@@ -1,0 +1,17 @@
+h1 {
+position: absolute;
+width: 518px;
+height: 108px;
+left: 145px;
+top: 211px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 44px;
+line-height: 54px;
+/* or 123% */
+
+color: #2F281E;
+}
+
