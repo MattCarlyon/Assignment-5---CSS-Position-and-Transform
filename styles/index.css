@@ -1,9 +1,3 @@
-.container {
-    display: flex;
-    position: relative;
-    width: 1400px;
-    height: 3843px;
-}
 
 h1 {
     /*position: absolute;
@@ -38,7 +32,7 @@ h2 {
     color: #2F281E;
 }
 
-.h2.1 {text-align: center;}
+.h2-1 {text-align: center;}
 
 h3 {
     /*position: absolute;
@@ -121,6 +115,49 @@ p {
     /* identical to box height */
 }
 
+.btn3 { 
+    border: 1px solid #BCD0E5;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+}
+
+
+.btn4 {
+    background: #FFFFFF;
+    border: 1px solid #BCD0E5;
+    border-radius: 4px;
+    height: 48px;
+    width: 325px;
+    left: 0%;
+    right: 0%;
+    top: 45.73%;
+    bottom: 30.15%;
+}
+
+.btnsize1 {
+    Width: 102px;
+    Height: 46px;
+}
+
+.btnsize2 {
+    width: 175px;
+    height: 53px;
+}
+
+.btnsize3 {
+    width: 131px;
+    height:39px;
+}
+
+.container {
+    display: flex;
+    position: relative;
+    width: 1400px;
+    height: 3843px;
+    align-items: center;
+    flex-direction: column;
+}
+
 .navigation {
     display: flex;
     position: absolute;
@@ -128,7 +165,31 @@ p {
     height: 78px;
     left: 0px;
     top: 20px;
+    flex-direction: column;
+}
 
+.navtext {
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    align-self: center;
+    justify-self: center;
+   
+}
+
+.navbtn {
+    display: flex;
+    position: absolute;
+    align-self: flex-end;
+    justify-self: center;
+}
+
+.logo1 {
+    position:absolute;
+    width: 185.34px;
+    height: 31.97px;
+    left: 143.92px;
+    top: 22px;
 }
 
 .header {
@@ -138,6 +199,10 @@ p {
     height: 496px;
     left: 145px;
     top: 128px;
+    align-items: center;
+}
+
+.leftside {
 }
 
 .feature {
@@ -147,6 +212,14 @@ p {
     height: 543px;
     left: -406px;
     top: 734px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    
+    
 }
 
 .validation {
@@ -183,4 +256,13 @@ p {
     height: 308px;
     left: 160px;
     top: 3452px;    
+    justify-content: space-between;
 }
+
+.footerbtn {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: baseline;
+}
+
