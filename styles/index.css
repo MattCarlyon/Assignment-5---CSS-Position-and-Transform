@@ -1,4 +1,5 @@
 .container {
+    display: flex;
     position: relative;
     width: 1400px;
     height: 3843px;
@@ -120,7 +121,66 @@ p {
     /* identical to box height */
 }
 
+.navigation {
+    display: flex;
+    position: absolute;
+    width: 1400px;
+    height: 78px;
+    left: 0px;
+    top: 20px;
 
+}
 
+.header {
+    display:flex;
+    position: absolute;
+    width: 1126px;
+    height: 496px;
+    left: 145px;
+    top: 128px;
+}
 
+.feature {
+    display: flex;
+    position: absolute;
+    width: 2211px;
+    height: 543px;
+    left: -406px;
+    top: 734px;
+}
 
+.validation {
+    display: flex;
+    position: absolute;
+    width: 1110px;
+    height: 574px;
+    left: 145px;
+    top: 1397px;
+}
+
+.pm {
+    display: flex;
+    position: absolute;
+    width: 1121px;
+    height: 521px;
+    left: 144px;
+    top: 2072px;
+}
+
+.marketers {
+    display: flex;
+    position: absolute;
+    width: 1110px;
+    height: 609px;
+    left: 147px;
+    top: 2697px;
+}
+
+.footer {
+    display: flex;
+    position: absolute;
+    width: 1109px;
+    height: 308px;
+    left: 160px;
+    top: 3452px;    
+}
