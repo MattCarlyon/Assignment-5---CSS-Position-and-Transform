@@ -32,7 +32,13 @@ h2 {
     color: #2F281E;
 }
 
-.h2-1 {text-align: center;}
+.h2-1 {
+    text-align: center;
+    width: 539px;
+    height: 108px;
+    left: 845px;
+    align-self: center;
+}
 
 h3 {
     /*position: absolute;
@@ -173,8 +179,10 @@ p {
     position: absolute;
     flex-direction: row;
     align-self: center;
-    justify-self: center;
-   
+    justify-content: space-between;
+    width: 400px;
+    height: 28px;
+    left: 650px;
 }
 
 .navbtn {
@@ -202,9 +210,6 @@ p {
     align-items: center;
 }
 
-.leftside {
-}
-
 .feature {
     display: flex;
     position: absolute;
@@ -218,8 +223,79 @@ p {
 }
 
 .card {
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    width: 1095px;
+    height: 204px;
+    top: 162px;
     
-    
+}
+
+.layout1 {
+    width: 240px;
+    height: 178px;
+    top: 162px;
+    left: 567px;
+
+}
+
+.layout2 {
+    width: 240px;
+    height: 178px;
+    top: 162px;
+    left: 853px;
+}
+
+.layout3 {
+    width: 240px;
+    height: 178px;
+    top: 162px;
+    left: 1138px;
+}
+
+.layout4 {
+    width: 240px;
+    height: 178px;
+    top: 162px;
+    left: 1422px;
+}
+
+.icon {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    border-radius: 19px;
+}
+
+.icon1 {
+    background: #7752BE;
+    top: 17px;
+    left: 19px;
+}
+
+.icon2 {
+    background: #FAB005;
+    top: 17px;
+    left: 19px;
+}
+
+.icon3 {
+    background: #F03E3D;
+    top: 17px;
+    left: 19px;
+}
+
+.icon4 {
+    background: #4DADF7;
+    top: 17px;
+    left: 19px;
+}
+
+.iconposition {
+  margin-left: 17px;
+  align-self: center;
+  color: #FFFFFF;
 }
 
 .validation {
@@ -238,6 +314,23 @@ p {
     height: 521px;
     left: 144px;
     top: 2072px;
+}
+
+.ticktext {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   width: 450px;
+   height: 52px;
+   margin-top: 30px;
+}
+
+.tickicon {
+    width: 35px;
+    height: 35px;
+    justify-content: center;
+    margin-right: 20px;
 }
 
 .marketers {
